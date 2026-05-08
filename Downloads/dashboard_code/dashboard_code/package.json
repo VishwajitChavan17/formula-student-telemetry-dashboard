@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.20.0"
+  },
+  "name": "car-dashboard",
+  "version": "1.0.0",
+  "description": "car_dashboard",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vishwajit",
+  "license": "ISC"
+}

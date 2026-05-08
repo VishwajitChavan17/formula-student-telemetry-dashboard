@@ -1,0 +1,273 @@
+/* General Styles */
+body {
+    background-color: #202020;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Dashboard {
+    width: 1920px;
+    height: 960px;
+    position: relative;
+    background: #202020;
+    border-radius: 60px;
+    overflow: hidden;
+    border: 28px solid #01EBD4;
+}
+
+/* Header Section (Time, Date, Welcome) */
+.Vector70 {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    background: linear-gradient(180deg, #01EBD4 0%, rgba(33, 33, 33, 0) 100%);
+    top: 0;
+}
+
+.time {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+.date {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 36px;
+    color: white;
+    font-weight: 500;
+}
+
+.welcome {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.welcome img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Warning Section */
+.warning {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warning-text {
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.critical-temp {
+    color: red;
+    font-size: 32px;
+}
+
+/* Battery Section */
+.battery-section {
+    position: absolute;
+    left: 130px;
+    top: 220px;
+    text-align: center;
+    color: white;
+}
+
+.battery-section img.battery-img {
+    width: 550px;
+    height: 550px;
+    margin-bottom: -340px;
+    z-index: -1;
+}
+
+.battery-percentage {
+    font-size: 120px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+}
+
+.battery-label {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* Speed Section */
+.speed-display {
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 200px;
+    font-weight: 700;
+    color: #01E6DE;
+    text-align: center;
+}
+
+.speed-unit {
+    position: absolute;
+    left: 50%;
+    top: 580px;
+    transform: translateX(-50%);
+    font-size: 46px;
+    color: #01E6DE;
+}
+
+/* Additional Details (Brake Pressure, Avg. Speed) */
+.details {
+    position: absolute;
+    right: 200px;
+    top: 300px;
+    color: white;
+    text-align: left;
+}
+
+.detail {
+    margin-bottom: 40px;
+}
+
+.detail img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.value {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Temperature Section */
+.temperature-section {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.temp-value {
+    font-size: 64px;
+    font-weight: bold;
+    color: #01EBD4;
+}
+
+.temp-indicator img {
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.Ready {
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    font-size: 90px;
+    font-weight: 700;
+    color: #32D74B;
+}
+
+/* Acceleracers Logo */
+.acceleracers-logo {
+    position: absolute;
+    width: 214px;
+    height: 106px;
+    left: 50%;
+    bottom: 120px;
+    transform: translateX(-50%);
+}
+
+.acceleracers-logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Road Section */
+.road-section {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+}
+
+.road-section img {
+    width: 100%;
+    height: auto;
+}
+
+/* Charge and Rectangles Section */
+.charge-logo {
+    position: absolute;
+    width: 116.86px;
+    height: 47px;
+    left: 186px;
+    top: 817px;
+    
+}
+
+.rectangle-109 {
+    position: absolute;
+    width: 47px;
+    height: 37.3px;
+    left: 306px;
+    top: 817px;
+   
+}
+
+.rectangle-115 {
+    position: absolute;
+    width: 47px;
+    height: 37.3px;
+    left: 346px;
+    top: 817px;
+   
+}
+
+.rectangle-116 {
+    position: absolute;
+    width: 47px;
+    height: 37.3px;
+    left: 386px;
+    top: 817px;
+  
+}
+
+.rectangle-117 {
+    position: absolute;
+    width: 47px;
+    height: 37.3px;
+    left: 426px;
+    top: 817px;
+   
+}
